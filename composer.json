@@ -1,0 +1,19 @@
+{
+  "name": "hut6/crontab-checker",
+  "description": "Validates syntax of all files in project root prefixed with .crontab",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Luke McDonnell",
+      "email": "luke@hutsix.com.au"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+  },
+  "bin": [
+    "crontab-checker"
+  ]
+}
