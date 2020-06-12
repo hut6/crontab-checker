@@ -1,3 +1,2 @@
 /vendor
-/secrets
-/deploy/hosts.yml
+/bin/tag-release
