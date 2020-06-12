@@ -53,10 +53,10 @@ class CrontabChecker {
     }
 }
 
-echo "Crontab Checker looks for files prefixed with .crontab in project root and validates syntax. \n";
+echo "Crontab Checker searches project root and ./deploy/* for files prefixed with .crontab and validates syntax. \n";
 
 $checker = new CrontabChecker();
-$files = glob('./.crontab*');
+$files = array_merge(glob('./.crontab*'),glob("./deploy/{,*/,*/*/,*/*/*/}.crontab*", GLOB_BRACE));
 
 foreach ($files as $file) {
     echo 'Checking file: ' . $file . "\n";

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "hut6/tag-release",
+        "version": "1.0.9",
+        "version_normalized": "1.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hut6/tag-release.git",
+            "reference": "35a2ffefd437336e1ffa622b8c37fcbd1ffc4076"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hut6/tag-release/zipball/35a2ffefd437336e1ffa622b8c37fcbd1ffc4076",
+            "reference": "35a2ffefd437336e1ffa622b8c37fcbd1ffc4076",
+            "shasum": ""
+        },
+        "time": "2020-03-25T02:13:27+00:00",
+        "bin": [
+            "tag-release"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "HutSix",
+                "email": "team@hutsix.com.au"
+            }
+        ],
+        "description": "Release tagging..."
+    }
+]

@@ -3,7 +3,6 @@
   "description": "Validates syntax of all files in project root prefixed with .crontab",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0",
   "authors": [
     {
       "name": "Luke McDonnell",
@@ -14,6 +13,9 @@
   "require": {
   },
   "bin": [
-    "crontab-checker"
-  ]
+    "bin/crontab-checker"
+  ],
+  "require-dev": {
+    "hut6/tag-release": "^1.0"
+  }
 }
